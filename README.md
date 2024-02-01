@@ -40,14 +40,15 @@ Data structures are fundamental components of computer science that allow for th
   <li>  <b>  Random Access:</b> Constant time access to any element using its index.<br></li>
   <li>  <b>  Memory Efficiency:</b> Contiguous memory allocation allows for efficient use of cache.<br></li>
 
+<h3>Disadvantages:</h3>
+  <li>  <b>Fixed Size:</b> Static arrays have a fixed size, making it challenging to change the size dynamically.<br></li>
+  <li>  <b></b>Insertion/Deletion: Can be inefficient since elements may need to be shifted when inserting or deleting elements.<br></li>
 
-Disadvantages:<br>
-<b></b>Fixed Size: Static arrays have a fixed size, making it challenging to change the size dynamically.<br>
-<b></b>Insertion/Deletion: Can be inefficient since elements may need to be shifted when inserting or deleting elements.<br>
-Use Cases:<br>
-<b></b>Storing and accessing a collection of elements with constant-time random access requirements.<br>
-Implementing mathematical matrices, vectors, etc.<br>
-Efficient storage of elements when the size is known and doesn't change frequently.<br>
+<h3>Use Cases:</h3>
+  <li>  Storing and accessing a collection of elements with constant-time random access requirements.<br></li>
+  <li>  Implementing mathematical matrices, vectors, etc.<br></li>
+  <li>  Efficient storage of elements when the size is known and doesn't change frequently.<br></li>
+
 Arrays are a fundamental and versatile data structure used in various algorithms and applications. While they offer constant-time access to elements, their fixed size can be limiting in some scenarios, leading to the use of dynamic arrays or other data structures like linked lists when flexibility in size is required.<br>
 
 
