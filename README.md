@@ -52,7 +52,7 @@ Data structures are fundamental components of computer science that allow for th
 <p>Arrays are a fundamental and versatile data structure used in various algorithms and applications. While they offer constant-time access to elements, their fixed size can be limiting in some scenarios, leading to the use of dynamic arrays or other data structures like linked lists when flexibility in size is required.<br></p>
 
 <h3>Basic operations in the Arrays</h3>
-<p><ui>Insertion</ui>
+<p><li>Insertion</li>
 <li>Deletion</li> 
 <li>Searching</li> 
 <li>Display</li> 
