@@ -53,11 +53,11 @@ Data structures are fundamental components of computer science that allow for th
 
 <h3>basic operations in the Arrays</h3>
 <p><ui>Insertion</ui> <br>
-<ui>Deletion</ui> <br>
-<ui>Searching</ui> <br>
-<ui>Display</ui> <br>
-<ui>Traverse</ui> <br> and
-<ui>update.</ui> <br></p>
+<li>Deletion</li> <br>
+<li>Searching</li> <br>
+<li>Display</li> <br>
+<li>Traverse</li> <br> and
+<li>update.</li> <br></p>
 <!--
 <h2 align="left">Open terminal and run</h2>
 <h3>
