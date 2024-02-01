@@ -38,7 +38,7 @@ Data structures are fundamental components of computer science that allow for th
 
 <h4>Advantages:</h4><br>
 
-<ui><b>Random Access:</b> Constant time access to any element using its index.<br></ui>
+<li><b>Random Access:</b> Constant time access to any element using its index.<br></li>
 
 <b></b>Memory Efficiency: Contiguous memory allocation allows for efficient use of cache.<br>
 
