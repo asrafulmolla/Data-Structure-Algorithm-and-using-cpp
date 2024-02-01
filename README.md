@@ -42,7 +42,7 @@ Data structures are fundamental components of computer science that allow for th
 
 <h3>Disadvantages:</h3>
   <li>  <b>Fixed Size:</b> Static arrays have a fixed size, making it challenging to change the size dynamically.<br></li>
-  <li>  <b></b>Insertion/Deletion: Can be inefficient since elements may need to be shifted when inserting or deleting elements.<br></li>
+  <li>  <b>Insertion/Deletion:</b> Can be inefficient since elements may need to be shifted when inserting or deleting elements.<br></li>
 
 <h3>Use Cases:</h3>
   <li>  Storing and accessing a collection of elements with constant-time random access requirements.<br></li>
