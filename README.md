@@ -37,9 +37,9 @@ Data structures are fundamental components of computer science that allow for th
 <b>Size:</b> Fixed size in most languages (static arrays), or dynamic size (dynamic arrays).<br>
 
 <h3>Advantages:</h3>
-  <li>  <b>Random Access:</b> Constant time access to any element using its index.<br></li>
+  <li>  <b>  Random Access:</b> Constant time access to any element using its index.<br></li>
+  <li>  <b>  Memory Efficiency:</b> Contiguous memory allocation allows for efficient use of cache.<br></li>
 
-<b></b>Memory Efficiency: Contiguous memory allocation allows for efficient use of cache.<br>
 
 Disadvantages:<br>
 <b></b>Fixed Size: Static arrays have a fixed size, making it challenging to change the size dynamically.<br>
