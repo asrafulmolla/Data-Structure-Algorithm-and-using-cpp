@@ -29,11 +29,16 @@ Data structures are fundamental components of computer science that allow for th
 <p>
 <h3>Array:</h3>
 <b>Definition:</b> An array is a collection of elements, each identified by an index or a key.<br>
+  
 <b>Structure:</b> Elements are stored in contiguous memory locations.<br>
+
 <b>Indexing:</b> Elements are accessed using their index (starting from 0 in many programming languages).<br>
+
 <b>Size:</b> Fixed size in most languages (static arrays), or dynamic size (dynamic arrays).<br>
+
 <h4>Advantages:</h4><br>
-<b><ui></ui>Random Access:</b> Constant time access to any element using its index.<br>
+
+<b><ui>Random Access:</ui></b> Constant time access to any element using its index.<br>
 <b></b>Memory Efficiency: Contiguous memory allocation allows for efficient use of cache.<br>
 Disadvantages:<br>
 <b></b>Fixed Size: Static arrays have a fixed size, making it challenging to change the size dynamically.<br>
