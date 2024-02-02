@@ -58,6 +58,7 @@ Data structures are fundamental components of computer science that allow for th
 <li>Display</li> 
 <li>Traverse and</li>
 <li>Update.</li></p>
+<h3 align="center">Insertion</h3>
 <!--
 <h2 align="left">Open terminal and run</h2>
 <h3>
