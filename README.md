@@ -80,8 +80,9 @@ Data structures are fundamental components of computer science that allow for th
 <li>Input the size of the array (n) and the array elements.</li> 
 <li>Input the element to be deleted (num).</li> 
 <li>Search for the element in the array and delete it.<br>
-This loop searches for the element (num) in the array. If found, it shifts the elements to the left to overwrite the position of the element to be deleted.</li> 
-<li>Display the new array after deletion.</li>
+    Searches for the element (num) in the array. If found, it shifts the elements to the left to overwrite the position of the element to be deleted.</li> 
+<li>Display the new array after deletion.<br>
+    Prints the elements of the modified array after the deletion operation.</li>
 
 </p>
 <!--
