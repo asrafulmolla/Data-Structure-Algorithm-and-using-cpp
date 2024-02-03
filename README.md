@@ -66,8 +66,7 @@ Data structures are fundamental components of computer science that allow for th
 3. Insert the new element at the desired position in the new array.<br>
 4. Copy the remaining elements from the original array to the new array.<br>
 Here's an example in cpp (C++):<br></p>
-<br>
-<font backround="#ff0000" color="#ff0000" size=""> <a href="https://github.com/asrafulmolla/Data-Structure-and-Algorithm-using-cpp/blob/main/Insertion.cpp">Code</a> 
+<font backround="#ff0000" color="#ff0000" size="5"> <a href="https://github.com/asrafulmolla/Data-Structure-and-Algorithm-using-cpp/blob/main/Insertion.cpp">Code</a> 
 </font>
 <br>
 <!--
