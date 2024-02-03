@@ -76,7 +76,7 @@ Data structures are fundamental components of computer science that allow for th
 </font>
 <br></p>
 <p>
-  <font size="5">Algorithm</font><br>
+  <font size="5"><b>Algorithm</b></font><br>
 <li>Input the size of the array (n) and the array elements.</li> 
 <li>Input the element to be deleted (num).</li> 
 <li>Search for the element in the array and delete it.<br>
