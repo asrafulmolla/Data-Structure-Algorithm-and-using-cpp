@@ -59,13 +59,13 @@ Data structures are fundamental components of computer science that allow for th
 <li>Traverse and</li>
 <li>Update.</li></p>
 <h3 align="center">Insertion</h3>
-<p><font size="8">To insert an element at a specific position in an array, you can use the following general approach:</font><br>
+<p><font size="10">To insert an element at a specific position in an array, you can use the following general approach:</font><br>
 
-<br>Create a new array with a size one greater than the original array.<br>
-Copy the elements from the original array to the new array up to the desired position.<br>
-Insert the new element at the desired position in the new array.<br>
-Copy the remaining elements from the original array to the new array.<br>
-Here's an example in Python:<br></p>
+<br>1. Create a new array with a size one greater than the original array.<br>
+2. Copy the elements from the original array to the new array up to the desired position.<br>
+3. Insert the new element at the desired position in the new array.<br>
+4. Copy the remaining elements from the original array to the new array.<br>
+Here's an example in cpp (C++):<br></p>
 <!--
 <h2 align="left">Open terminal and run</h2>
 <h3>
