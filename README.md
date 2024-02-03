@@ -58,7 +58,7 @@ Data structures are fundamental components of computer science that allow for th
 <li>Display</li> 
 <li>Traverse and</li>
 <li>Update.</li></p>
-<h3 align="center">Insertion</h3>
+<h3 align="center"><font size="5" color="Green">Insertion</font></h3>
 <p><font size="3">To insert an element at a specific position in an array, you can use the following general approach:</font><br>
 
 <br>1. Create a new array with a size one greater than the original array.<br>
