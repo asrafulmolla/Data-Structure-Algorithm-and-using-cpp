@@ -67,7 +67,7 @@ Data structures are fundamental components of computer science that allow for th
 4. Copy the remaining elements from the original array to the new array.<br>
 <div align="center">
     <a>
-      <img width="600" height="500" src="https://github.com/asrafulmolla/Data-Structure-and-Algorithm-using-cpp/assets/128937137/e4faa692-49d0-4dbf-b9c7-63d35a30dc2d" alt="telegram-app--v1"/>
+      <img width="680" height="480" src="https://github.com/asrafulmolla/Data-Structure-and-Algorithm-using-cpp/assets/128937137/e4faa692-49d0-4dbf-b9c7-63d35a30dc2d" alt="telegram-app--v1"/>
     </a>
   </div>
    Here's an example in cpp (C++):<br></p>
