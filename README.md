@@ -59,13 +59,45 @@ Data structures are fundamental components of computer science that allow for th
 <li>Traverse and</li>
 <li>Update.</li></p>
 <h3 align="center">Insertion</h3>
-<p><font size="10">To insert an element at a specific position in an array, you can use the following general approach:</font><br>
+<p><font size="6">To insert an element at a specific position in an array, you can use the following general approach:</font><br>
 
 <br>1. Create a new array with a size one greater than the original array.<br>
 2. Copy the elements from the original array to the new array up to the desired position.<br>
 3. Insert the new element at the desired position in the new array.<br>
 4. Copy the remaining elements from the original array to the new array.<br>
 Here's an example in cpp (C++):<br></p>
+<br>
+<font> #include <iostream>
+using namespace std;
+int main()
+{
+  int n,num,position,temp=0,index;
+  cout << "\nEnter the size of an array: ";
+  cin >> n;
+  int a[n];
+  cout << "Enter array elements:\n";
+  for (int i = 0; i < n; i++)
+  cin >> a[i];
+  cout << "Enter the insertion index position of an array: ";
+  cin >> index;
+  cout << "\nEnter element to be inserted: ";
+  cin >> num;
+  for(int i=index;i<n+1;i++)
+  {
+      temp=a[i];
+      a[i]=num;
+      num = temp;
+  }
+  cout << "New Array after Insertion:"<<endl;
+  for (int i=0; i<(n+1); i++)
+  {
+      cout << a[i] << " ";
+  }
+  return 0;
+}
+
+</font>
+<br>
 <!--
 <h2 align="left">Open terminal and run</h2>
 <h3>
