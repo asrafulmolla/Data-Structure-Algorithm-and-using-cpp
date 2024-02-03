@@ -72,7 +72,7 @@ Data structures are fundamental components of computer science that allow for th
   </div>
    
    
-<font size="5">Here's an example in cpp (C++):  <a href="https://github.com/asrafulmolla/Data-Structure-and-Algorithm-using-cpp/blob/main/Insertion.cpp"><b> <font color="red"> Code </font></b></a> <font size="2">(Click Code and Display thr program)</font>
+<font size="5">Here's an example in cpp (C++):  <a href="https://github.com/asrafulmolla/Data-Structure-and-Algorithm-using-cpp/blob/main/Insertion.cpp"><b> <font color="red"> Code </font></b></a> <font size="0.5">(Click on Code and Display the program)</font>
 </font>
 <br></p>
 <p>
