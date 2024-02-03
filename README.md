@@ -1,6 +1,6 @@
-<h1 align="center">Data Structures and Algorithm</h1>
+<h1 align="center"><font color="#ff0000">Data Structures and Algorithm</font></h1>
 <h2 align="left">About</h2>
-<p font color="#ff0000">
+<p>
 Data structures are fundamental components of computer science that allow for the organization and storage of data in a way that facilitates efficient access and modification. They are essential for designing and implementing algorithms and play a crucial role in the efficiency of software.</p>
 <p>
   Here are some common data structures:
