@@ -141,11 +141,11 @@ New Array after Delation:1 2 4 5 </font><br>
   Any search is said to be successful or unsuccessful depending upon whether the element that is being searched is found or not.<br>
 <font size="4">Searching techniques</font> 
 There are three types of searching in data structure and analysis <br>
-<li>Linear Search </li><br>
-<li>Binary Search </li><br>
-<li>Interpolation Search </li><br>
+<li>Linear Search </li>
+<li>Binary Search </li>
+<li>Interpolation Search </li>
 </p>
-<font size="4">Linear Search</font> <br>
+<font size="4.5"><b>Linear Search</b></font> <br>
 <li>Linear search is a very simple search algorithm.</li> 
 <li>In this type of search, a sequential search is made over all items one by one. </li> 
 <li>Every item is checked and if a match is found then that particular item is returned. </li> 
@@ -155,13 +155,10 @@ There are three types of searching in data structure and analysis <br>
       <img width="700" height="480" src="https://github.com/asrafulmolla/Data-Structure-and-Algorithm-using-cpp/assets/128937137/03a919d8-8424-49c6-8ebc-7974c7e9eaaa" alt=""/>
     </a>
   </div>
-   
-   
+  <br>
 <font size="5">Here's an example in cpp (C++):  <a href="https://github.com/asrafulmolla/Data-Structure-and-Algorithm-using-cpp/blob/main/Array_liner_search.cpp"><b> <font color="red"> Code </font></b></a> <font size="0.5">(Click on Code and Display the program)</font>
 </font>
 <br></p>
-<p>
-  </p>
 <p>
   <font size="5"><b>Sample input and Output</b></font><br>
    <font size="4">Enter the size of an array: 5<br>
