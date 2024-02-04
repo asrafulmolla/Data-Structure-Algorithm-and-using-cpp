@@ -14,17 +14,19 @@ int main()
     int num;
     cout<<"Enter your searching value: ";
     cin>>num;
-    for(int i=0;i<n;i++)
+    for(i=0;i<n;i++)
     {
         if(a[i]==num)
         {
             cout<<num<<" Found the location a["<<i<<"]";
-        }
-        else if(i==n-1)
-        {
-            cout<<"Value not found.";
+            break;
         }
        
+    
     }
-   
+     if(i==n)
+        {
+            cout<<num<<" Value not found.";
+        }
+
 }
