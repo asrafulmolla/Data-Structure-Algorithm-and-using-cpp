@@ -158,7 +158,7 @@ There are three types of searching in data structure and analysis <br>
   <br>
 <font size="5">Here's an example in cpp (C++):  <a href="https://github.com/asrafulmolla/Data-Structure-and-Algorithm-using-cpp/blob/main/Array_liner_search.cpp"><b> <font color="red"> Code </font></b></a> <font size="0.5">(Click on Code and Display the program)</font>
 </font>
-<br></p>
+<br>
 <p>
   <font size="5"><b>Sample input and Output</b></font><br>
    <font size="4">Enter the size of an array: 5<br>
