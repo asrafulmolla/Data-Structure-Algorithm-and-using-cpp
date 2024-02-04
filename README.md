@@ -80,13 +80,11 @@ Data structures are fundamental components of computer science that allow for th
 <p>
   <font size="5"><b>Sample input and Output</b></font><br>
    <font size="4">Enter the size of an array: 5<br>
-Enter array elements:<br>
-1 2 3 4 5<br>
+Enter array elements:1 2 3 4 5<br>
 Enter the insertion index position of an array: 3<br>
-
 Enter element to be inserted: 30<br>
-New Array after Insertion:<br>
-1 2 3 30 4 5 </font><br>
+     
+New Array after Insertion:1 2 3 30 4 5 </font><br>
 </p>
   <font size="5"><b>Algorithm</b></font><br>
 <li>Input the size of the array (n) and the array elements.</li> 
