@@ -134,8 +134,54 @@ New Array after Delation:1 2 4 5 </font><br>
    6. Display the new array:<br>
 <li>Use a loop to print the elements of the array after deletion.</li>
 
-
-
+<!-- Searching section -->
+  <h3 align="center"><font size="5" color="red">Searching</font></h3>
+<p>
+  Searching is an operation or a technique that helps finds the place of a given element or value in the list.<br>
+  Any search is said to be successful or unsuccessful depending upon whether the element that is being searched is found or not.<br>
+<font size="4">Searching techniques</font> 
+There are three types of searching in data structure and analysis <br>
+<li>Linear Search </li><br>
+<li>Binary Search </li><br>
+<li>Interpolation Search </li><br>
+</p>
+<font size="4">Linear Search</font> <br>
+<li>Linear search is a very simple search algorithm.</li> 
+<li>In this type of search, a sequential search is made over all items one by one. </li> 
+<li>Every item is checked and if a match is found then that particular item is returned. </li> 
+<li>Otherwise the search continues till the end of the data collection.</li><br>
+<div align="center">
+    <a>
+      <img width="700" height="480" src="https://github.com/asrafulmolla/Data-Structure-and-Algorithm-using-cpp/assets/128937137/03a919d8-8424-49c6-8ebc-7974c7e9eaaa" alt=""/>
+    </a>
+  </div>
+   
+   
+<font size="5">Here's an example in cpp (C++):  <a href="https://github.com/asrafulmolla/Data-Structure-and-Algorithm-using-cpp/blob/main/Array_liner_search.cpp"><b> <font color="red"> Code </font></b></a> <font size="0.5">(Click on Code and Display the program)</font>
+</font>
+<br></p>
+<p>
+  </p>
+<p>
+  <font size="5"><b>Sample input and Output</b></font><br>
+   <font size="4">Enter the size of an array: 5<br>
+Enter array elements:1 2 3 4 5<br>
+Enter your searching value: 4<br>
+4 Found the location a[3]</font><br>
+</p>
+  <font size="5"><b>Algorithm</b></font><br>
+  1. Input the size of the array (n):<br>
+<li>Prompt the user to enter the size of the array.</li> 
+  2. Input array elements: <br>
+<li>Use a loop to input the elements of the array.</li> 
+  3. Input the value to be searched (num):<br>
+<li>Prompt the user to enter the value they want to search for.</li> 
+  4. Search for the value in the array:<br>
+<li>Use a loop to iterate through the array.<br>
+  <li>If the current element (a[i]) matches the search value (num), print the index and break out of the loop.<br>
+   5. Display the result:<br>
+<li>If the loop completes without finding the value (i == n), print a message indicating that the value was not found.</li>
+  
 
 
 
