@@ -139,7 +139,7 @@ New Array after Delation:1 2 4 5 </font><br>
 <p>
   Searching is an operation or a technique that helps finds the place of a given element or value in the list.<br>
   Any search is said to be successful or unsuccessful depending upon whether the element that is being searched is found or not.<br>
-<font size="4">Searching techniques</font> 
+<font size="4"><b>Searching techniques</b></font> <br>
 There are three types of searching in data structure and analysis <br>
 <li>Linear Search </li>
 <li>Binary Search </li>
