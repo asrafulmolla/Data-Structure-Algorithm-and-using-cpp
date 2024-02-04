@@ -58,6 +58,7 @@ Data structures are fundamental components of computer science that allow for th
 <li>Display</li> 
 <li>Traverse and</li>
 <li>Update.</li></p>
+<!-- Insertion section -->
 <h3 align="center"><font size="5" color="red">Insertion</font></h3>
 <p><font size="3">To insert an element at a specific position in an array, you can use the following general approach:</font><br>
 
@@ -93,10 +94,53 @@ New Array after Insertion:1 2 3 30 4 5 </font><br>
     Searches for the element (num) in the array. If found, it shifts the elements to the left to overwrite the position of the element to be deleted.</li> 
 <li>Display the new array after deletion.<br>
     Prints the elements of the modified array after the deletion operation.</li>
-</p>
+<!-- Delation section -->
+  <h3 align="center"><font size="5" color="red">Delation</font></h3>
+<p><font size="3">To Delate an element in an array, you can use the following general approach:</font><br>
+
+<br>1. Deletion is nothing but process of remove an element from the array.<br>
+2. Here we have shifted the numbers of placed after the position from where the number is to be deleted, one place to the left of their existing positions.<br>
+<div align="center">
+    <a>
+      <img width="700" height="480" src="https://github.com/asrafulmolla/Data-Structure-and-Algorithm-using-cpp/assets/128937137/72a41ba6-e8de-496e-9b0b-0b7e2d38f671" alt=""/>
+    </a>
+  </div>
+   
+   
+<font size="5">Here's an example in cpp (C++):  <a href="https://github.com/asrafulmolla/Data-Structure-and-Algorithm-using-cpp/blob/main/Deletion_in_element.cpp"><b> <font color="red"> Code </font></b></a> <font size="0.5">(Click on Code and Display the program)</font>
+</font>
+<br></p>
 <p>
-  <font size="5"><b></b></font><br>
+  </p>
+<p>
+  <font size="5"><b>Sample input and Output</b></font><br>
+   <font size="4">Enter the size of an array: 5<br>
+Enter array elements:1 2 3 4 5<br>
+Enter the Delating element of an array: 3<br>
+     
+New Array after Delation:1 2 4 5 </font><br>
 </p>
+  <font size="5"><b>Algorithm</b></font><br>
+  1. Input the size of the array (n):<br>
+<li>Prompt the user to enter the size of the array.</li> 
+  2. Input array elements: <br>
+<li>Use a loop to input the elements of the array.</li> 
+  3. Input the element to be deleted (num):<br>
+<li>Prompt the user to enter the element they want to delete.</li> 
+  4. Find the index of the element to be deleted:<br>
+<li>Iterate through the array to find the index (i) where the element matches the user input (num).<br>
+   5. Shift elements to the left to delete the element:<br>
+<li>Use a loop to shift all elements from the index (i) to the end of the array one position to the left</li>
+   6. Display the new array:<br>
+<li>Use a loop to print the elements of the array after deletion.</li>
+
+
+
+
+
+
+
+    
 <!--
 <h2 align="left">Open terminal and run</h2>
 <h3>
