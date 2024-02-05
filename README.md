@@ -222,7 +222,7 @@ Enter your searching value: 3<br>
 <li>If the element at the middle (a[mid]) is less than the target num, it means the target must be in the right half of the array. So, low is updated to mid + 1.</li> 
 <li>If a[mid] is equal to num, the target is found, and the program prints the index and exits the loop.<br>
 <li>If a[mid] is greater than num, the target must be in the left half of the array. So, high is updated to mid - 1.<br><li>The value of mid is recalculated based on the new values of low and high.<br>
-    <b> 5. Output:<br>  </b>
+    <b> 4. Output:<br>  </b>
 <li>If the while loop exits without finding the target (when low is greater than high), the program prints "Element not found."</li><br>
 
 
