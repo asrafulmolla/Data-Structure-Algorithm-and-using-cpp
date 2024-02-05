@@ -21,6 +21,7 @@ int main()
         if(a[mid]<num)
         {
             low=mid+1;
+            mid=(low+high)/2;
         }
         else if(a[mid]==num)
         {
