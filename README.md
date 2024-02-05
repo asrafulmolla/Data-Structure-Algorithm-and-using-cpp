@@ -177,7 +177,7 @@ Enter your searching value: 4<br>
 <li>Use a loop to iterate through the array.<br>
   <li>If the current element (a[i]) matches the search value (num), print the index and break out of the loop.<br>
    5. Display the result:<br>
-<li>If the loop completes without finding the value (i == n), print a message indicating that the value was not found.</li>
+<li>If the loop completes without finding the value (i == n), print a message indicating that the value was not found.</li><br>
 
 
 
@@ -211,21 +211,73 @@ Enter your searching value: 3<br>
 3 Found the location a[2]</font><br>
 </p>
   <font size="5"><b>Algorithm</b></font><br>
-  1. Input:<br>
+   <b> 1. Input:<br>  </b>
 <li>The user is prompted to enter the size of the array (n).</li> 
 <li>The user is then asked to input the elements of the array (a).</li> 
-  2. Binary Search Algorithm: <br>
+  <b>  2. Binary Search Algorithm: <br>  </b>
 <li>The program initializes low to 0 and high to n-1, representing the search interval.</li> 
 <li>It calculates the initial value of mid as the average of low and high.</li> 
 <li>It enters a while loop as long as low is less than or equal to high.</li> 
-  3. Inside the loop:<br>
+   <b> 3. Inside the loop:<br>  </b>
 <li>If the element at the middle (a[mid]) is less than the target num, it means the target must be in the right half of the array. So, low is updated to mid + 1.</li> 
 <li>If a[mid] is equal to num, the target is found, and the program prints the index and exits the loop.<br>
 <li>If a[mid] is greater than num, the target must be in the left half of the array. So, high is updated to mid - 1.<br><li>The value of mid is recalculated based on the new values of low and high.<br>
-   5. Output:<br>
-<li>If the while loop exits without finding the target (when low is greater than high), the program prints "Element not found."</li>
-  
+    <b> 5. Output:<br>  </b>
+<li>If the while loop exits without finding the target (when low is greater than high), the program prints "Element not found."</li><br>
+
+
+<font size="5"><b>Interpolation Search </b></font> <br>
+<li>Interpolation search is an improved variant of binary search.</li> 
+<li>This search algorithm works on the probing position of the required value. </li> 
+<li>For this algorithm to work properly, the data collection should be in a sorted form and equally distributed. </li> <br>
+
+<font size="5"><b>Interpolation search usage </b></font> <br>
+
+<li>There are cases where the location of target data may be known in advance.</li>
+<li>For example, in case of a telephone directory, if we want to search the telephone number of Morphius Here, linear search and even binary search will seem slow as we can directly jump to memory space where the names start from 'M' are stored </li> <br>
+
+
+<div align="center">
+    <a>
+      <img width="700" height="480" src="https://github.com/asrafulmolla/Data-Structure-and-Algorithm-using-cpp/assets/128937137/a0ec8af6-b844-4069-8a32-96a36d56c997" alt=""/>
+    </a>
+  </div>
+  <br>
+<font size="5">Here's an example in cpp (C++):  <a href="https://github.com/asrafulmolla/Data-Structure-and-Algorithm-using-cpp/blob/main/Array_Interpolation_search.cpp"><b> <font color="red"> Code </font></b></a> <font size="0.5">(Click on Code and Display the program)</font>
+</font>
+<br>
+<p>
+  <font size="5"><b>Sample input and Output</b></font><br>
+   <font size="4">Enter the size of an array: 5<br>
+Enter array elements:1 2 3 4 5<br>
+Enter your searching value: 3<br>
+3 Found the location a[2]</font><br>
+</p>
+  <font size="5"><b>Algorithm</b></font><br>
+    <b>1. Input:  </b><br>
+<li>The user is prompted to enter the size of the array (n).</li> 
+<li>The user then inputs the array elements.</li> 
+<li>The user is prompted to enter the element to be searched (e).</li> 
+    <b>2. Array Initialization:   </b><br>
+<li>An array a of size n is declared and initialized with user-input elements.</li> 
+   <b> 3.Interpolation Search Initialization:  </b><br>
+<li>Variables start, end, and pos are initialized.</li> 
+<li>start represents the starting index of the search range.<br>
+<li>end represents the ending index of the search range.<br>
+  <li>pos is calculated using the interpolation formula to estimate the probable position of the target element within the array.<br>
+  <b> 4.Search Loop:  </b><br>
+<li>A while loop is used to iteratively search for the element e in the array.</li> 
+<li>Inside the loop, it checks if the current position pos is less than, equal to, or greater than the target element e.<br>
+<li>If a[pos]< e it updates start and recalculates pos.<br>
+<li>If a[pos] == e, it prints the index where the element is found and breaks out of the loop.<br>
+<li>If a[pos] > e, it updates end and recalculates pos..<br>
+<li>The loop continues until start becomes greater than end or the element is found.<br>
     
+  <b>5. Output:</b><br>
+<li>If the element is found, it prints the index where the element is located.</li>
+<li>If the element is not found, it prints a message indicating that the element is not in the array. </li>
+  
+
 <!--
 <h2 align="left">Open terminal and run</h2>
 <h3>
