@@ -145,7 +145,7 @@ There are three types of searching in data structure and analysis <br>
 <li>Binary Search </li>
 <li>Interpolation Search </li>
 </p>
-<font size="4.5"><b>Linear Search</b></font> <br>
+<font size="5"><b>Linear Search</b></font> <br>
 <li>Linear search is a very simple search algorithm.</li> 
 <li>In this type of search, a sequential search is made over all items one by one. </li> 
 <li>Every item is checked and if a match is found then that particular item is returned. </li> 
@@ -178,11 +178,53 @@ Enter your searching value: 4<br>
   <li>If the current element (a[i]) matches the search value (num), print the index and break out of the loop.<br>
    5. Display the result:<br>
 <li>If the loop completes without finding the value (i == n), print a message indicating that the value was not found.</li>
+
+
+
+<font size="5"><b>Binary Search</b></font> <br>
+<li>Binary search is a fast search algorithm with run-time complexity of O(log n).</li> 
+<li>This search algorithm works on the principle of divide and conquer. For this algorithm to work properly. </li> 
+<li>The data collection should be in the sorted form. </li> 
+<li>Binary search looks for a particular item by comparing the middle most item of the collection. If a match occurs, then the index of item is returned..</li>
+<li>If the middle item is greater than the item, then the item is searched in the sub-array to the right of the middle item. </li> 
+<li>Otherwise, the item is searched for in the sub-array to the left of the middle item.</li> 
+<li>The process continues on till the subarray reduces to zero.</li> 
+<li>Compare x with the middle element. If x matches with middle element, we return the mid index.</li>
+<li>Else If x is greater than the mid element, then x can only lie in right half subarray after the mid element. So we recur for right half. </li> 
+<li>Else (x is smaller) recur for the left half.</li><br>
+
+
+<div align="center">
+    <a>
+      <img width="700" height="480" src="https://github.com/asrafulmolla/Data-Structure-and-Algorithm-using-cpp/assets/128937137/233464cf-65d5-4cce-9692-cbab50b67d3a" alt=""/>
+    </a>
+  </div>
+  <br>
+<font size="5">Here's an example in cpp (C++):  <a href="https://github.com/asrafulmolla/Data-Structure-and-Algorithm-using-cpp/blob/main/Array_Binary_Search.cpp"><b> <font color="red"> Code </font></b></a> <font size="0.5">(Click on Code and Display the program)</font>
+</font>
+<br>
+<p>
+  <font size="5"><b>Sample input and Output</b></font><br>
+   <font size="4">Enter the size of an array: 5<br>
+Enter array elements:1 2 3 4 5<br>
+Enter your searching value: 3<br>
+3 Found the location a[2]</font><br>
+</p>
+  <font size="5"><b>Algorithm</b></font><br>
+  1. Input:<br>
+<li>The user is prompted to enter the size of the array (n).</li> 
+<li>The user is then asked to input the elements of the array (a).</li> 
+  2. Binary Search Algorithm: <br>
+<li>The program initializes low to 0 and high to n-1, representing the search interval.</li> 
+<li>It calculates the initial value of mid as the average of low and high.</li> 
+<li>It enters a while loop as long as low is less than or equal to high.</li> 
+  3. Inside the loop:<br>
+<li>If the element at the middle (a[mid]) is less than the target num, it means the target must be in the right half of the array. So, low is updated to mid + 1.</li> 
+<li>If a[mid] is equal to num, the target is found, and the program prints the index and exits the loop.<br>
+<li>If a[mid] is greater than num, the target must be in the left half of the array. So, high is updated to mid - 1.<br><li>The value of mid is recalculated based on the new values of low and high.<br>
+   5. Output:<br>
+<li>If the while loop exits without finding the target (when low is greater than high), the program prints "Element not found."</li>
   
-
-
-
-
     
 <!--
 <h2 align="left">Open terminal and run</h2>
