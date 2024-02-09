@@ -185,7 +185,7 @@ Enter your searching value: 4<br>
 <li>Binary search is a fast search algorithm with run-time complexity of O(log n).</li> 
 <li>This search algorithm works on the principle of divide and conquer. For this algorithm to work properly. </li> 
 <li>The data collection should be in the sorted form. </li> 
-<li>Binary search looks for a particular item by comparing the middle most item of the collection. If a match occurs, then the index of item is returned..</li>
+<li>Binary search looks for a particular item by comparing the middle most item of the collection. If a match occurs, then the index of item is returned.</li>
 <li>If the middle item is greater than the item, then the item is searched in the sub-array to the right of the middle item. </li> 
 <li>Otherwise, the item is searched for in the sub-array to the left of the middle item.</li> 
 <li>The process continues on till the subarray reduces to zero.</li> 
@@ -210,6 +210,7 @@ Enter array elements:1 2 3 4 5<br>
 Enter your searching value: 3<br>
 3 Found the location a[2]</font><br>
 </p>
+
   <font size="5"><b>Algorithm</b></font><br>
    <b> 1. Input:<br>  </b>
 <li>The user is prompted to enter the size of the array (n).</li> 
